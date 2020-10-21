@@ -30,7 +30,7 @@ if os.name == "nt":
 	sniffer.ioctl(socket.SIO_RCVALL, socket.RCVALL_ON)
 
 	
-#read in a single packet
+#read the packets in a loop
 while True:
 	print (sniffer.recvfrom(65565))
 
