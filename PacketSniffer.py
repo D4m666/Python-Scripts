@@ -1,6 +1,5 @@
 import socket
 import os
-from ctypes import *
 
 #host to listen on
 host = "10.10.40.65"
